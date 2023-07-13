@@ -8,6 +8,7 @@ import { LoginContext } from "../context/ContextProvider";
 const Cart = () => {
   const { id } = useParams("");
   const history = useNavigate("");
+  // eslint-disable-next-line no-unused-vars
   const {account,setAccount} = useContext(LoginContext)
   
   const [inddata,setInddata] = useState([]);

@@ -56,6 +56,8 @@ const logoutuser = async () => {
         },
         credentials: "include"
     });
+    
+  // eslint-disable-next-line no-unused-vars
     const data2 = await res2.json();
         // console.log(data2);
 
