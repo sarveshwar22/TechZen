@@ -10,6 +10,7 @@ const SignIn = () => {
     email: "",
     password: "",
   });
+  // eslint-disable-next-line no-unused-vars
   const { account, setAccount } = useContext(LoginContext);
 
   const addData = (e) => {
