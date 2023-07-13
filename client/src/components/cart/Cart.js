@@ -36,6 +36,7 @@ const Cart = () => {
 
   useEffect(() => {
     getinddata();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   const addtocart = async(id)=>{

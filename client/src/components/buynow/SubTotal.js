@@ -9,11 +9,13 @@ const [price,setPrice] = useState(0);
 useEffect(()=>{
 
   totalAmount();
+// eslint-disable-next-line react-hooks/exhaustive-deps
 },[item])
 
 const totalAmount = ()=>{
 
   let price = 0;
+  // eslint-disable-next-line array-callback-return
   item.map((i)=>{
     price+=i.price.cost;
   })
